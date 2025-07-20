@@ -1,23 +1,20 @@
-<?php
-include"cabecalho.php";
-?>
-<div class="container">
-    <h1>Bem-vindo à Página 2</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 2</title>
+</head>
+<body>
+    <h1>Saudação</h1>
     <?php
-    include "conexao.php";
-    $sql = "select * from pessoas";
-    $result = mysqli_query($conexao, $sql);
-    while ($linha = mysqli_fetch_assoc( $resultado )) {
-        ?>  
-        <div class="col-3">
-           <?php echo "Olá, " . $_GET['nome'];?>  
-        </div>
-        <?php
+    if (isset($_GET['nome'])) {
+        echo "Olá, " . htmlspecialchars($_GET['nome']) . "!";
+    } else {
+        echo "Nome não informado.";
     }
-    mysqli_close( $conexao );
     ?>
-</div>
-    <?php include"rodape.php"; ?>
+</body>
+</html>
+
 
 
 

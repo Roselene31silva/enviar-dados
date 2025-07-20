@@ -1,7 +1,8 @@
 <?php
-include"cabecalho.php";
+include "cabecalho.php";
 ?>
-<div class="container">
+<div class="form-container">
+         <h1>Bem-vindo!</h1>
     <a href="pagina2.php?nome=João">Clique aqui</a>
-</div>
+    </div>
 <?php include"rodape.php"; ?>
