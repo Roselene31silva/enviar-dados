@@ -1,9 +1,6 @@
-!DOCTYPE html>
-<html>
-<head>
-    <title>Página 2</title>
-</head>
-<body>
+<?php
+include "cabecalho.php";
+?>
     <h1>Saudação</h1>
     <?php
     if (isset($_GET['nome'])) {
@@ -12,5 +9,4 @@
         echo "Nome não informado.";
     }
     ?>
-</body>
-</html>
+<?php include "rodape.php"; ?>

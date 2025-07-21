@@ -1,8 +1,8 @@
 <?php
-include"cabecalho.php";
+include "cabecalho.php";
 $id = $_GET["id"];
-include"conexao.php";
-$sql = "select * from pesoas where id = $id";
+include "conexao.php";
+$sql = "select * from pessoas where id = $id";
 $resultado = mysqli_query($conexao,$sql);
 $nome = "";
 $email = "";

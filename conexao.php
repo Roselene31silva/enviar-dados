@@ -1,10 +1,11 @@
 <?php
 $servidor = "localhost";
+$bd = "enviar-dados";
 $usuario = "root";
 $senha = "";
-$banco = "enviar-dados";
 
-$conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
+
+$conexao = mysqli_connect($servidor, $usuario, $senha, $bd);
 
 if (!$conexao) {
     die("Conexão falhou: " . mysqli_connect_error());

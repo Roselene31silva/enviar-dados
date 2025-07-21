@@ -64,4 +64,7 @@ footer {
 .container a:hover {
     background-color: #2980b9;
 }
+footer small {
+    display: block;
+}
 

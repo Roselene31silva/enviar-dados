@@ -14,4 +14,4 @@ include"cabecalho.php";
     mysqli_close($conexao);
     ?>
 </div>
-<?php include"rodape.php"; ?>
+<?php include "rodape.php"; ?>
