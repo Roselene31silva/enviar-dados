@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
+    //Fiz um arquivo cabecalho.php com html que foi o padrão de abertura
+    da pagina.
+    
     <header>
         <h1>Banco de Dados</h1>
         <nav>

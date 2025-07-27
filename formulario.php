@@ -1,6 +1,7 @@
 <?php
 include "cabecalho.php";
 ?>
+// Formulário para entrada de dados, com campos para nome e email, nãosei formatar no bootstrap e css.
 <div class="form-container">
     <h2>Digite seus dados</h2>
     <label for="nome">Nome:</label>
@@ -8,6 +9,7 @@ include "cabecalho.php";
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 </div>
+//tentei fazer um button que ao clicar envia os dados, não funcionou muito bem, mas não sei como fazer isso com bootstrap e css.
 <div class="form-container">
     <button onclick="submitForm()">Enviar</button>
 </div>  

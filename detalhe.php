@@ -1,5 +1,8 @@
 <?php
 include "cabecalho.php";
+
+// Detalhes do usuário, busca informações no banco de dados com base no ID passado, não formatei pelo mesmo motivo.
+
 $id = $_GET["id"];
 include "conexao.php";
 $sql = "select * from pessoas where id = $id";
